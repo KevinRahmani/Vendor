@@ -23,10 +23,6 @@ et le mot de passe doit etre laissé à vide c'est à dire qu'il n'y a pas de mo
 Si vous n'avez pas la possibilité de changer vos coordonnées, veuillez vous rendre dans les fichiers connexion_colis.php connexion_stock.php et connexion_user.php 
 A la place de root veuillez rentrer votre identifiant et à la place des guillemets vide, votre mot de passe.
 
-Si cela ne fonctionne pas, envoyez un mail à rahmani.kevin9@gmail.com.
-Une solution sous bref délai vous sera envoyée.
-
-
 ---------Info utile--------
 
 Pour se connecter à un compte de livreur, un compte de vendeur ou un compte client déjà créé, rechercher dans la base de données user_vendor les identifiants nécessaires. Dans la page de connexion, on peut directement entrer les identifiants de la bdd pour se connecter. 
