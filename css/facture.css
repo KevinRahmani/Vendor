@@ -1,0 +1,177 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.facture {
+    width : 75%;
+    margin-left: 15%;
+    margin-top: 3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+table {
+    height: auto;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+th{
+    background-color: black;
+    color: #fff;
+    height: 2rem;
+}
+
+
+td{
+    width: 10%;
+    text-align: center;
+    background-color: #fff;   
+    font-size: 20px;
+}
+
+.img_product{
+    width: 260px;
+    height: 225px;
+    object-fit: contain;
+}
+
+.produit{
+    width: 10%;
+    text-align: center;
+}
+
+.quantite{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.totalprix{
+    color: black;
+}
+
+.total{
+    border: solid 2px black;
+    text-align: center; 
+}
+
+.total2{
+    border: solid 2px black;
+    text-align: center; 
+    color: red;
+    height: 40px;
+}
+
+.total2:hover{
+    text-decoration: underline;
+}
+
+input{
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.validation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.validation #envoyer{
+    margin-left: 5%;
+    width: 80px;
+    height: 40px;
+    background-color: #fff;
+    color:#18b131;
+    border: 2px solid #18b131;
+    font-size: 18px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.validation #annuler{
+    width: 80px;
+    height: 40px;
+    border: 2px solid rgb(179, 0, 0);
+    background-color: #fff;
+    color: rgb(179, 0, 0);
+    font-size:18px;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+#envoyer:not([disabled]):hover{
+    background-color:#18b131;
+    border:none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#annuler:not([disabled]):hover{
+    background-color:rgb(179, 0, 0);
+    border:none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.message_info{
+    color: #d10707;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.livraison{
+    padding-top: 75px;
+    text-align: end;
+}
+
+
+select {
+    font-size: 16px;
+    width: 19em;
+    height: 3em;
+    font-family: Arial, sans-serif;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    appearance: none; /* Permet de masquer la flèche par défaut du navigateur */
+    -webkit-appearance: none; /* Permet de masquer la flèche par défaut sur Safari et Chrome */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><polygon points='0,0 10,0 5,6'/></svg>") !important; /* Ajoute une flèche personnalisée */
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+}
+  
+select:hover,
+select:focus {
+    outline: none;
+    border-color: #555;
+}
+  
+select option {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
